@@ -7,7 +7,7 @@ export const Home = () => {
 	const {store, actions} = useContext(Context);
 
 	return(
-	<div className="text-center mt-5">
+	<div className="text-center mt-5" style={{paddingTop: '100px', paddingBottom:'20px'}}>
 		<div className="container d-flex over-flow-x-auto">
          {store.people?.map(el=> <Card key={el.uid} name={el.name} uid={el.uid} />)}   
 		 </div>

@@ -13,7 +13,7 @@ export const Navbar = () => {
                     className="d-inline-block align-top"
                 />
             </Link>
-            <div className="ml-auto">
+            <div className="ml-auto d-flex align-items-center" style={{ marginRight: '10px' }}>
                 <Link to="/demo">
                     <button className="btn btn-primary">Favorites</button>
                 </Link>
